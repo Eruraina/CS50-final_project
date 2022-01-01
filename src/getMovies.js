@@ -144,7 +144,6 @@ function showMovies(data) {
                     <figcaption class="card__info">
                         <h2 class="card__title">${title}</h2>
                         <p class="card__subtitle">${vote_average}</p>
-                        <button class="card__link">More info</button>
                     </figcaption>
                 </figure>
 

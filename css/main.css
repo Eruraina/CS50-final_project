@@ -275,22 +275,6 @@ main {
     padding-right: .4em;
 }
 
-.card__link {
-    margin-top: auto;
-    padding: 1em;
-    background: transparent;
-    border: none;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 1rem;
-    font-family: nunito, sans-serif;
-}
-
-.card__link::after {
-    content: '\2192';
-    padding-left: .4em;
-}
-
 /* **************
    *SINGLE BOOK*
    ************** */
