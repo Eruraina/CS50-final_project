@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mindUnleased - Books over Movies</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">mindUnleashed</a>
+        </div>
+        
+        <!-- <button class="mobile-nav-toggle" aria-controls="nav__list" aria-expanded="false" aria-label="menu"></button> -->
+        
+        <nav class="nav contact__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="../index.html">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="./movies.html">Movies</a></li>
+                <li class="nav__item active"><a class="nav__link" href="#">TV Shows</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="list-main">
+            
+            <form class="search-form" id="form">
+                <input type="text" id="search" placeholder="Search tv shows">
+            </form>
+
+            <div class="filters"></div>
+
+            <div class="list-container"></div>
+        </div>
+    </main>
+
+    <footer class="footer">Created by Jovana Raskovic &copy; 2021 <span>mindUnleashed</span><p>Source:<img src="../assets/tmdb.svg" alt="TMDB logo"></p></footer>
+
+    <script src="../src/getShows.js"></script>
+</body>
+</html>
