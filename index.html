@@ -21,10 +21,10 @@
             <a href="#">mindUnleashed</a>
         </div>
         
-        <!-- <button class="mobile-nav-toggle" aria-controls="nav__list" aria-expanded="false" aria-label="menu"></button> -->
+        <button class="mobile-nav-toggle" aria-controls="nav__list" aria-expanded="false" aria-label="menu"></button>
         
         <nav class="nav contact__nav">
-            <ul class="nav__list">
+            <ul class="nav__list" id="nav__list" class="nav__list" data-visible="false">
                 <li class="nav__item active"><a class="nav__link" href="#">Home</a></li>
                 <li class="nav__item"><a class="nav__link" href="./templates/movies.html">Movies</a></li>
                 <li class="nav__item"><a class="nav__link" href="./templates/shows.html">TV Shows</a></li>
@@ -50,5 +50,7 @@
     </main>
 
     <footer class="footer">Created by Jovana Raskovic &copy; 2021 <span>mindUnleashed</span><p>Source:<img src="./assets/tmdb.svg" alt="TMDB logo"></p></footer>
+
+    <script src="../src/nav.js"></script>
 </body>
 </html>
