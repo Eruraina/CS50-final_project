@@ -33,7 +33,7 @@ body {
     overflow-x: hidden;
     font-family: Nunito, sans-serif;
     line-height: 1.5;
-    background-image: url('../assets/bg.png');
+    background-image: url('../assets/bg.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ main {
    ************** */
 
 .home-body {
-    background-image: url('../assets/home_bg.png');
+    background-image: url('../assets/home_bg.svg');
 }
 
 .home-container {
@@ -220,7 +220,7 @@ main {
    ************** */
 
 .list-main {
-    background-image: url('../assets/tape.png');
+    background-image: url('../assets/tape.svg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
